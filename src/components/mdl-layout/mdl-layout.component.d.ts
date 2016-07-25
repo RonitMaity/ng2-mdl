@@ -1,4 +1,3 @@
-/// <reference types="core-js" />
 import { RouterLink } from '@angular/router';
 export interface MenuItem {
     title: string;
