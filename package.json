@@ -1,6 +1,6 @@
 {
   "name": "ng2-mdl",
-  "version": "0.6.9",
+  "version": "0.7.0",
   "description": "A tiny angular2.0.0-rc.4 wrapper for material design lite.",
   "keywords": [
     "angular2",
@@ -18,7 +18,8 @@
   "scripts": {
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "start": "npm run tsc:w"
+    "start": "npm run tsc",
+    "typings": "typings"
   },
   "devDependencies": {
     "@angular/common": "2.0.0-rc.4",
@@ -29,16 +30,11 @@
     "@angular/platform-browser-dynamic": "2.0.0-rc.4",
     "@angular/platform-server": "2.0.0-rc.4",
     "@angular/router": "3.0.0-beta.2",
-
-    "@types/core-js": "^0.9.28",
-    "@types/hammerjs": "^2.0.28",
-    "@types/node": "^4.0.29",
-    "@types/source-map": "^0.1.26",
-    
     "core-js": "^2.4.0",
     "rxjs": "^5.0.0-beta.6",
-    "zone.js": "~0.6.12",
-    "typescript": "^2.0.0-beta"
+    "typescript": "^2.0.0-beta",
+    "typings": "^1.0.4",
+    "zone.js": "~0.6.12"
   },
   "repository": {
     "type": "git",

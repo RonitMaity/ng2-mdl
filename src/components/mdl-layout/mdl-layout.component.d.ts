@@ -1,8 +1,7 @@
-import { RouterLink } from '@angular/router';
 export interface MenuItem {
     title: string;
     link: string;
-    routerLink: Array<RouterLink>;
+    routerLink: Array<any>;
 }
 export declare class MdlLayoutComponent {
     fixedHeader: boolean;

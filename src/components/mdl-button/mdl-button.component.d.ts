@@ -1,6 +1,8 @@
 export declare class MdlButtonComponent {
-    theme: string;
-    raised: boolean;
     ripple: boolean;
     disabled: boolean;
+    raised: boolean;
+    theme: string;
+    color: string;
+    ngOnChanges(): void;
 }
