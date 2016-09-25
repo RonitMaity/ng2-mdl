@@ -1,7 +1,7 @@
 {
   "name": "ng2-mdl",
-  "version": "0.8.0",
-  "description": "A tiny angular2.0.0-rc.6 wrapper for material design lite.",
+  "version": "1.0.0",
+  "description": "A tiny angular2.0.0 wrapper for material design lite.",
   "keywords": [
     "angular2",
     "ng2",
@@ -12,24 +12,24 @@
     "material-design",
     "material-design-lite"
   ],
+  "main": "ng2-mdl.js",
   "author": "Sabbir Rahman <sabbir.jassim@gmail.com>",
   "homepage": "http://sabbirrahman.github.io/ng2-mdl/",
   "license": "MIT",
   "scripts": {
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "start": "npm run tsc",
-    "typings": "typings"
+    "start": "npm run tsc"
   },
   "devDependencies": {
-    "@angular/compiler": "2.0.0-rc.6",
-    "@angular/platform-browser": "2.0.0-rc.6",
-    "@angular/platform-browser-dynamic": "2.0.0-rc.6",
-    "@angular/platform-server": "2.0.0-rc.6",
+    "@angular/compiler": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/platform-server": "2.0.0",
+    "angular2-universal": "^2.0.11",
     "core-js": "^2.4.1",
-    "rxjs": "^5.0.0-beta.11",
+    "rxjs": "^5.0.0-beta.12",
     "typescript": "^2.0.0",
-    "typings": "^1.0.4",
     "zone.js": "~0.6.17"
   },
   "repository": {
@@ -40,10 +40,10 @@
     "url": "https://github.com/sabbirrahman/ng2-mdl/issues"
   },
   "dependencies": {
-    "@angular/core": "2.0.0-rc.6",
-    "@angular/common": "2.0.0-rc.6",
-    "@angular/router": "3.0.0-rc.2",
-    "@angular/forms": "^2.0.0-rc.6",
-    "rxjs": "^5.0.0-beta.11"
+    "@angular/core": "2.0.0",
+    "@angular/common": "2.0.0",
+    "@angular/router": "3.0.0",
+    "@angular/forms": "2.0.0",
+    "rxjs": "^5.0.0-beta.12"
   }
 }

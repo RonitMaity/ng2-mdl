@@ -13,7 +13,7 @@ export declare class MdlSwitchComponent implements ControlValueAccessor {
     update(checked: any): void;
     onChange: (_: any) => void;
     onTouched: () => void;
-    writeValue(checked: any): void;
-    registerOnChange(fn: (_: any) => void): void;
+    writeValue(checked: boolean): void;
+    registerOnChange(fn: (_) => void): void;
     registerOnTouched(fn: () => void): void;
 }

@@ -17,7 +17,7 @@ export declare class MdlTextFieldComponent implements ControlValueAccessor {
     update(value: any): void;
     onChange: (_: any) => void;
     onTouched: () => void;
-    writeValue(value: any): void;
-    registerOnChange(fn: (_: any) => void): void;
+    writeValue(value: string): void;
+    registerOnChange(fn: (_) => void): void;
     registerOnTouched(fn: () => void): void;
 }

@@ -53,7 +53,7 @@ export class MdlRadioComponent implements ControlValueAccessor {
   onChange = (_) => { console.log(); };
   @HostListener('blur', ['$event'])
   onTouched = () => { console.log(); };
-  writeValue(value: any): void { this.val = value; }
-  registerOnChange(fn: (_: any) => void): void { this.onChange = fn; }
+  writeValue(value: string): void { this.val = value; }
+  registerOnChange(fn: (_) => void): void { this.onChange = fn; }
   registerOnTouched(fn: () => void): void { this.onTouched = fn; }
 }

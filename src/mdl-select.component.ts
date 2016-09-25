@@ -79,10 +79,10 @@ export class MdlSelectComponent implements ControlValueAccessor {
   onChange = (_) => { console.log(); };
   @HostListener('blur', ['$event'])
   onTouched = () => { console.log(); };
-  writeValue(value: any): void {
+  writeValue(value: string): void {
     this.value = value;
     if(!this.initialized) this.updateSelectField();
   }
-  registerOnChange(fn: (_: any) => void): void { this.onChange = fn; }
+  registerOnChange(fn: (_) => void): void { this.onChange = fn; }
   registerOnTouched(fn: () => void): void { this.onTouched = fn; }
 }
