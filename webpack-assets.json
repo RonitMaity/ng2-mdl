@@ -1,0 +1,11 @@
+{
+  "vendor": {
+    "js": "ng2-mdl/vendor.bundle.js"
+  },
+  "main": {
+    "js": "ng2-mdl/main.bundle.js"
+  },
+  "polyfills": {
+    "js": "ng2-mdl/polyfills.bundle.js"
+  }
+}
